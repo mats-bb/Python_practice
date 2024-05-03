@@ -1,0 +1,7 @@
+This file contains a hint to help you work on your project.
+
+Hint #1: 
+When validating user input you will need to use a while loop and keep asking the user to enter another value
+until their input satisfies the constraints outlined in the prompt. When getting the team names and scores you will 
+need to place a while loop inside of a for loop, as you need to check validity for every team. You can loop through
+the number of teams in the for loop and for each team ask for either a valid name of number of wins in the while loop.

@@ -1,0 +1,15 @@
+This file contains a hint to help you work on your project.
+
+Hint #3: 
+Once you've sorted the teams by their number of wins you can start creating games.
+Doing this is as simple as matching the team with the most wins with the team with
+the least wins and then repeating for all remaining teams. Take an example where we 
+have 4 teams, sorted in ascending order by their wins: 
+
+sorted_teams = ["Tigers", "Bears", "Dolphins", "Sheep"] 
+game1 = (sorted_teams[-1], sorted_teams[0])  # sorted_teams[-1] is the home team
+game2 = (sorted_teams[-2], sorted_teams[1])
+
+In this example the team at index 0 and the team at index 3 need to play a game and the teams at
+index 1 and index 2 need to play a game. Can you figure out how to emulate this using a 
+single for loop?

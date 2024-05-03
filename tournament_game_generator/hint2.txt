@@ -1,0 +1,7 @@
+This file contains a hint to help you work on your project.
+
+Hint #2:
+When gathering the wins for each team it may be helpful to create a list containing tuples of (team_name, wins).
+This way you can easily sort the teams by their wins using the .sort() method or sorted() function. Since you'll want to
+sort by the second element in each pairing you'll need to use the key keyword argument like this: .sort(list_to_sort, key=function) 
+or sorted(list_to_sort, key=function). Refer to the "Sorting" lesson in Programming Fundamental for more information on using key=.
