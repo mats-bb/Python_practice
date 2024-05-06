@@ -1,0 +1,1 @@
+Program for a contactlist, persisting the contactlist in json.
